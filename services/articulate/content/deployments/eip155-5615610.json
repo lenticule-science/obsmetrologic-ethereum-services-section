@@ -1,0 +1,34 @@
+{
+  "chainId": "eip155:5615610",
+  "status": "integration",
+  "deployments": [
+    {
+      "standard": "org.emsenn.evm.semiotic-mark.v1",
+      "contract": "src/Mark.sol:Mark",
+      "deployer": "0xDa4D7373a42042D065b7CcAE7d7ef4C358DA58E0",
+      "address": "0x468a7d44FD08e18703b49d91740747832051D74C",
+      "transactionHash": "0xab455f1d62da5dd1016a3794f6a08afa11d012ecb590917154db5a6ec3863d61"
+    },
+    {
+      "standard": "org.emsenn.evm.semiotic-utterance.v1",
+      "contract": "src/Utterance.sol:Utterance",
+      "deployer": "0xDa4D7373a42042D065b7CcAE7d7ef4C358DA58E0",
+      "address": "0x76cBdA845C3f199632B1713c17386BAB26b4de53",
+      "transactionHash": "0x346f4b36d9c0eab2827e68857a6b161036c1ed2e3987bfa3b8122941a3c04a6f"
+    },
+    {
+      "standard": "org.emsenn.evm.semiotic-articulating.v1",
+      "contract": "src/Articulating.sol:Articulating",
+      "deployer": "0xDa4D7373a42042D065b7CcAE7d7ef4C358DA58E0",
+      "address": "0xe97ef06Aa3327e41eab1EA6d1e89d3267fE7589E",
+      "transactionHash": "0x79b35c5f910b70ad0ea3acac6f9baeef94dc0bd141413d670204a06f48157302"
+    },
+    {
+      "standard": "org.emsenn.evm.semiotic-articulation-cell.v1",
+      "contract": "src/ArticulationCell.sol:ArticulationCell",
+      "deployer": "0xDa4D7373a42042D065b7CcAE7d7ef4C358DA58E0",
+      "address": "0xFE7A54595da52c169b32CF306c0409892d978369",
+      "transactionHash": "0x5e049c9452187fc1f915fa2ab73ced81fbeb43f1c9bef5d0be9c3d70a80c836f"
+    }
+  ]
+}

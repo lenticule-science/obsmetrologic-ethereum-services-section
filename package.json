@@ -1,0 +1,34 @@
+{
+  "name": "@lenticule-science/obsmetrologic-ethereum-services-section",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "The EVM face of Obsmetrologia: the generative spine realized as contracts, nested so that each stage is a service of the stage that generates it.",
+  "files": [
+    "content",
+    "services",
+    "src",
+    "foundry.toml"
+  ],
+  "scripts": {
+    "check": "forge build --force",
+    "test": "forge test",
+    "verify": "npm run check && npm test"
+  },
+  "x-agentic-metro-enterprise": {
+    "node-id": "ethereum-services-section",
+    "actor": "urn:ame:ethereum-services-section",
+    "organizational-kind": "micro-enterprise",
+    "owners": [
+      "obsmetrological-services-section"
+    ],
+    "membrane": {
+      "law": "lib/",
+      "lasting-instances": "content/",
+      "append-only-instances": "data/"
+    },
+    "admission": "one stage of the Obsmetrologia spine, seated as a service of the stage before it",
+    "refusal": "a contract with no cited Lean carrier, a stage seated beside rather than below its generator, and a second semantic center outside the spine"
+  },
+  "license": "UNLICENSED"
+}

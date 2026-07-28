@@ -1,0 +1,34 @@
+{
+  "name": "@lenticule-science/posit",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Positing on the EVM: the charge bilattice read off the articulation corners, with both order surfaces.",
+  "files": [
+    "content",
+    "services",
+    "src",
+    "foundry.toml"
+  ],
+  "scripts": {
+    "check": "forge build --force",
+    "test": "forge test",
+    "verify": "npm run check && npm test"
+  },
+  "x-agentic-metro-enterprise": {
+    "node-id": "posit",
+    "actor": "urn:ame:posit",
+    "organizational-kind": "micro-enterprise",
+    "owners": [
+      "obsmetrological-services-section"
+    ],
+    "membrane": {
+      "law": "lib/",
+      "lasting-instances": "content/",
+      "append-only-instances": "data/"
+    },
+    "admission": "one charge over the four-corner surface, with the knowledge and truth orders it carries",
+    "refusal": "an algebra given storage, a charge without its conflation to the corner that generates it, and a second value carrier"
+  },
+  "license": "UNLICENSED"
+}
