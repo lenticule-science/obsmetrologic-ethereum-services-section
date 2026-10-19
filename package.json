@@ -15,5 +15,9 @@
     "test": "forge test",
     "verify": "npm run check && npm test"
   },
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lenticule-science/obsmetrologic-ethereum-services-section.git"
+  }
 }
